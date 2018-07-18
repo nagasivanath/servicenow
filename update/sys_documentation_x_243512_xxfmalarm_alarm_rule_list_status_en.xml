@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="status" label="Status" language="en" table="x_243512_xxfmalarm_alarm_rule_list">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <help/>
+            <hint/>
+            <label>Status</label>
+            <language>en</language>
+            <name>x_243512_xxfmalarm_alarm_rule_list</name>
+            <plural>Status</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-27 06:05:10</sys_created_on>
+            <sys_id>113e384cdb47130001189b81ca9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Status</sys_name>
+            <sys_package display_value="XXFMAlarmSettings" source="x_243512_xxfmalarm">2c0bb088db47130001189b81ca96195e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="XXFMAlarmSettings">2c0bb088db47130001189b81ca96195e</sys_scope>
+            <sys_update_name>sys_documentation_x_243512_xxfmalarm_alarm_rule_list_status_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-27 06:05:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

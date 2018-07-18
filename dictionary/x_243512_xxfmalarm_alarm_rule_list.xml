@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Alarm_Rule_List" max_length="40" name="x_243512_xxfmalarm_alarm_rule_list" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element label="ID" max_length="40" name="id" type="integer"/>
+        <element label="Modified Time" max_length="40" name="modified_time" type="glide_date_time"/>
+        <element display="true" label="operation" max_length="8000" name="operation" type="html"/>
+        <element label="Periodicity" max_length="4000" name="periodicity" type="glide_list"/>
+        <element label="Priority" max_length="40" name="priority" type="string"/>
+        <element label="Rule Name" max_length="40" name="rule_name" type="string"/>
+        <element label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+        <element label="Status" max_length="40" name="status" type="boolean"/>
+        <element label="Type" max_length="40" name="type" type="string"/>
+    </element>
+</database>

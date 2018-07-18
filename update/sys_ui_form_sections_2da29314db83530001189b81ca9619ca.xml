@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="2da29314db83530001189b81ca9619ca" sys_domain="global" table="sys_db_object" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 11:32:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5a29314db83530001189b81ca9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_db_object" name="sys_db_object" sys_domain="global" view="cc925798db83530001189b81ca9619a1">2da29314db83530001189b81ca9619ca</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_object" sys_domain="global" view="cc925798db83530001189b81ca9619a1">c0925798db83530001189b81ca9619a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 11:32:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 11:32:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9a29314db83530001189b81ca9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_db_object" name="sys_db_object" sys_domain="global" view="cc925798db83530001189b81ca9619a1">2da29314db83530001189b81ca9619ca</sys_ui_form>
+            <sys_ui_section caption="Section 1" display_value="Section 1" name="sys_db_object" sys_domain="global" view="cc925798db83530001189b81ca9619a1">6da29314db83530001189b81ca9619cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 11:32:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sys_db_object</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 11:32:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2da29314db83530001189b81ca9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_db_object</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="XXFMAlarmSettings" source="x_243512_xxfmalarm">2c0bb088db47130001189b81ca96195e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="XXFMAlarmSettings">2c0bb088db47130001189b81ca96195e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2da29314db83530001189b81ca9619ca</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 11:32:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="New_Alarm_view" name="new_alarm_view">cc925798db83530001189b81ca9619a1</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

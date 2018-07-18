@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>homepages</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_243512_xxfmalarm_Alarm_Rule_List_Page.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<g:evaluate var="jvar_gr" object="true">
+   var gr = new GlideRecord("x_243512_xxfmalarm_alarm_rule_list");
+   gr.query();
+   gr;
+</g:evaluate>
+<g:debugger>
+</g:debugger>
+<script>
+debugger; 
+</script>
+<g2:evaluate var="jvar_gr" object="true">
+   alert("final parsing");
+</g2:evaluate>
+<g:evaluate var="jvar_gr" object="true">
+   alert("load dependencies and initlialization");
+</g:evaluate>
+<button type="button" onclick="">Create</button> 
+<button type="button" onclick="">Delete</button> 
+<j:while test="${jvar_gr.next()}">
+ <p> ${jvar_gr.getValue('rule_name')} </p>
+</j:while>
+
+
+
+<g:ui_reference name="requester_id" query="active=true" table="x_243512_xxfmalarm_alarm_rule_list" id="requester_id" value="${gs.getUserID()}" displayvalue="${gs.getUser().getName()}"/>
+<button class="button" style="margin-left:5px" id="getList" onclick="getIncList();">Get User Incidents</button>
+
+
+</j:jelly>]]></html>
+        <name>Alarm_Rule_List_Page</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 06:12:19</sys_created_on>
+        <sys_id>5ceefc4cdb47130001189b81ca9619c4</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Alarm_Rule_List_Page</sys_name>
+        <sys_package display_value="XXFMAlarmSettings" source="x_243512_xxfmalarm">2c0bb088db47130001189b81ca96195e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="XXFMAlarmSettings">2c0bb088db47130001189b81ca96195e</sys_scope>
+        <sys_update_name>sys_ui_page_5ceefc4cdb47130001189b81ca9619c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-12 03:13:26</sys_updated_on>
+    </sys_ui_page>
+</record_update>
